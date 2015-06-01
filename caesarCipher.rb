@@ -35,4 +35,9 @@ def caesarCiph(input_string, shift)
 	
 end				
 
-puts caesarCiph("What a string!", 5)
+puts "Input string:"
+stringToEncrypt = gets.chomp
+puts "Shift factor:"
+shiftFactor = gets.chomp.to_i
+puts "Caesar Cipher:"
+puts caesarCiph(stringToEncrypt, shiftFactor)
